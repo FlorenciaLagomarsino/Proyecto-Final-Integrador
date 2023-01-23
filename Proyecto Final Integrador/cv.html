@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="Icono.jpg">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+     <!-- Open Graph data -->
+ <meta property="og:title" content="Curriculum Vitae" />
+ <meta property="og:type" content="Información personal" />
+ <meta property="og:url" content=" http://www.example.com" />
+ <meta property="og:image" content=" http://example.com/image.jpg" />
+ <meta property="og:description" content="Información personal" />
+</head>
+<body>
+    <div class="container text-center">
+        <div class="grid text-center">
+            <div class="col-5 col-md-4">
+                <div class="titulo">
+                    <h1>Yolanda May</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col-2 col-md-4">
+                <div class="imagen">
+                    <img src="https://randomuser.me/api/portraits/women/23.jpg" class="img-fluid" alt="Foto de Yolanda May"/>
+                </div>
+            </div>
+            <div class="col-5 col-md-4">
+                <div class="primeros-datos">
+                    <header>
+                        <h2><p1>Datos personales</p1></h2>
+                        <ul class="primera-lista">
+                            <li><p>Fecha de nacimiento:</p> 09/07/1965</li>
+                            <li><p>E-mail:</p> yolanda.may@example.com</li>
+                            <li><p>Direccion:</p> 6513 Harrison Ct</li>
+                            <li><p>Número de contacto:</p> (244) 842-0001</li>
+                        </ul>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="segundos-datos">
+                <h2><p1>Formación</p1></h2>
+                <span>
+                    <ul>
+                        <li>U.N.N.E. Departamento de Idiomas: Certificado de aprobación. Lengua extranjera Ingles Británico. Nivel “B2 Usuario Independiente Alto” 2015-2020.</li>
+                        <li>EPGS Nº12: Certificado de asistencia y aprobación. Curso: lengua extranjera italiano. Nivel: Básico. 2018</li>
+                        <li>Coursera by University of Michigan: Certificado de aprobación. Online course: Pogramming for Everybody (Phyton). 2020</li>
+                    </ul>
+                </span>
+                <h2><p1>Aptitudes</p1></h2>
+                <span>
+                    <ul>
+                        <li>Aptitud para trabajar en equipo</li>
+                        <li>Puntualidad</li>
+                        <li>Compromiso</li>
+                    </ul>
+                </span>
+               <h2><p1>Voluntariado</p1></h2>
+                <span>
+                    <ul>
+                        <li>Voluntariado en la ONG Ayudemos a vivir (Ecuador), del proyecto THANI LETS HELP creado y certificado por AIESEC.</li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <section>
+                <aside>
+                    <button type="boton">Solicitar información adicional</button>
+                    <ul class="lista-secundaria" id="demo" style="display:none">
+                        <form action="" method="post">
+                            <li>
+                                <label>¿Qué información adicional desea?</label>
+                                <input type="text" name="pedido" placeholder="" required/>
+                            </li>
+                            <li>
+                                <label>Nombre: </label>
+                                <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
+                            </li>
+                            <li>
+                                <label>Apellido: </label>
+                                <input type="text" name="apellido" placeholder="Ingrese su apellido" required/>
+                            </li>
+                            <li>
+                                <label>Contacto: </label>
+                                <input type="email" name="email" placeholder="Ingrese su e-mail" required/>
+                                <input type="number" name="contacto" placeholder="Ingrese su número" required/>
+                            </li>
+                        <input type="submit" value="Enviar" />
+                        </form>
+                    </ul>
+                </aside>
+            </section>
+        </div>
+        <script src="js/programa.js"></script>
+    </div>
+</body>
+</html>
